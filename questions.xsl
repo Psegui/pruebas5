@@ -26,7 +26,7 @@ span{color:green;padding-left:5px}
     <tr>
       <td><xsl:value-of select="title"/></td>
       <td>
-	     <div id="foto">
+	    <div style="width: 70px; float: left;">
      <xsl:element name="img">
        <xsl:attribute name="src">
          <xsl:value-of select="cabeceras/@foto"/>
@@ -36,7 +36,6 @@ span{color:green;padding-left:5px}
        </xsl:attribute>
      </xsl:element>
 </div>
-
        <xsl:for-each select="answer">
         <xsl:choose>
          <xsl:when test="../type = 'text'">
