@@ -18,7 +18,6 @@ span{color:green;padding-left:5px}
 <body>
   <h2>Corrección</h2>
   <table>
-  <td><img src="{cabeceras}"></img></td>
 	  <tr>
       <th>Pregunta</th>
       <th>Opción</th>
