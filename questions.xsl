@@ -11,6 +11,15 @@ table{width:100%;border:1px solid}
 zth{background-color:#cdd8f6}
 td,tr,th{border:1px solid;padding:2px;vertical-align:top}
 span{color:green;padding-left:5px}
+foto { 
+  background: url(image.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50%;
+  width:80%;
+}	
 </style>
 </head>
 =<body>
@@ -21,11 +30,7 @@ span{color:green;padding-left:5px}
      <th>Opción</th>
       <th>Respuesta</th>
     </tr>
-	  <xsl:attribute-set name="region-body__frontmatter.odd" use-attribute-sets="region-body.odd">
-    <xsl:attribute name="background-image">url(img/fondo_th.png)</xsl:attribute>
-    <xsl:attribute name="background-repeat">repeat</xsl:attribute>
-    <xsl:attribute name="background-position">150px 150px</xsl:attribute>
-</xsl:attribute-set>
+	  <div class="foto" style="background-image: url(img/fondo_th.png)"></div>
     <xsl:for-each select="questions/question">      
     <tr>
       <td><xsl:value-of select="title"/></td>
