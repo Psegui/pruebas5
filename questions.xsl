@@ -11,7 +11,7 @@ th{bth {
 padding: 5px;
 font-size: 16px;
 background-color: #83aec0;
-background-image: url(fondo_th.png);
+background-image: url(img/fondo_th.png);
 background-repeat: repeat-x;
 color: #FFFFFF;
 border-right-width: 1px;
