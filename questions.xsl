@@ -16,9 +16,30 @@ span{color:green;padding-left:5px}
   <h2>Corrección</h2>
   <table>
     <tr>
-      <th>Pregunta</th>
-      <th>Opción</th>
-      <th>Respuesta</th>
+      <th>Pregunta <xsl:element name="img">
+       <xsl:attribute name="src">
+         <xsl:value-of select="cabeceras/@foto"/>
+       </xsl:attribute>
+       <xsl:attribute name="height">
+         100
+       </xsl:attribute>
+     </xsl:element></th>
+      <th>Opción <xsl:element name="img">
+       <xsl:attribute name="src">
+         <xsl:value-of select="cabeceras/@foto"/>
+       </xsl:attribute>
+       <xsl:attribute name="height">
+         100
+       </xsl:attribute>
+     </xsl:element></th>
+      <th>Respuesta <xsl:element name="img">
+       <xsl:attribute name="src">
+         <xsl:value-of select="cabeceras/@foto"/>
+       </xsl:attribute>
+       <xsl:attribute name="height">
+         100
+       </xsl:attribute>
+     </xsl:element></th>
     </tr>
     <xsl:for-each select="questions/question">      
     <tr>
@@ -43,16 +64,7 @@ span{color:green;padding-left:5px}
        </xsl:for-each>
       </td>
       <td>
-	    <div style="width: 70px; float: left;">
-     <xsl:element name="img">
-       <xsl:attribute name="src">
-         <xsl:value-of select="cabeceras/@foto"/>
-       </xsl:attribute>
-       <xsl:attribute name="height">
-         100
-       </xsl:attribute>
-     </xsl:element>
-</div>
+	 
        <xsl:for-each select="useranswer">
         <xsl:variable name="useranswers" select="text()"/>
         <xsl:value-of select="text()"/>
