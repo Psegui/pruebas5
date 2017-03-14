@@ -1,4 +1,5 @@
 
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -11,21 +12,14 @@ table{width:100%;border:1px solid}
 th{background-color:#cdd8f6}
 td,tr,th{border:1px solid;padding:2px;vertical-align:top}
 span{color:green;padding-left:5px}
-th{ 
-  background: src(img/fondo_th.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 50%;
-  width:80%;
-}	
+
 	</style>
 </head>
 <body>
   <h2>Corrección</h2>
   <table>
-    <tr>
+  <td><img src="{cabeceras}"></img></td>
+	  <tr>
       <th>Pregunta</th>
       <th>Opción</th>
       <th>Respuesta</th>
