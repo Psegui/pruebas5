@@ -7,7 +7,7 @@
 <head>
 <style rel="stylesheet" type="text/css">
 table{width:100%;border:1px solid}
-th{bth {
+th{
 padding: 5px;
 font-size: 16px;
 background-color: #83aec0;
