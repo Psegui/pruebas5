@@ -47,16 +47,7 @@ span{color:green;padding-left:5px}
        </xsl:for-each>
       </td>
       <td>
-	    <div style="width: 70px; float: left;">
-     <xsl:element name="img">
-       <xsl:attribute name="src">
-         <xsl:value-of select="cabeceras/@foto"/>
-       </xsl:attribute>
-       <xsl:attribute name="height">
-         100
-       </xsl:attribute>
-     </xsl:element>
-</div>
+	   
        <xsl:for-each select="useranswer">
         <xsl:variable name="useranswers" select="text()"/>
         <xsl:value-of select="text()"/>
