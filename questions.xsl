@@ -12,7 +12,7 @@ zth{background-color:#cdd8f6}
 td,tr,th{border:1px solid;padding:2px;vertical-align:top}
 span{color:green;padding-left:5px}
 th{ 
-  background: url(img/fondo_th.png) no-repeat center center fixed; 
+  background: src(img/fondo_th.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
