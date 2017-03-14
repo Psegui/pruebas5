@@ -25,7 +25,7 @@ span{color:green;padding-left:5px}
     <tr>
       <td><xsl:value-of select="title"/></td>
       <td>
-	       <div style="width: 100px; float: left;">
+	       <div style="width: 100px">
      <xsl:element name="img">
        <xsl:attribute name="src">
          <xsl:value-of select="cabeceras/@foto"/>
