@@ -1,4 +1,4 @@
--
+W-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -8,7 +8,7 @@
 <head>
 <style rel="stylesheet" type="text/css">
 table{width:100%;border:1px solid}
-th{background-color:#cdd8f6;background-image: url(img/fondo_th.png) no-repeat center center fixed; 
+th{background-color:#cdd8f6;background-image: url("img/fondo_th.png") no-repeat center center fixed; 
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
