@@ -11,7 +11,7 @@ table{width:100%;border:1px solid}
 zth{background-color:#cdd8f6}
 td,tr,th{border:1px solid;padding:2px;vertical-align:top}
 span{color:green;padding-left:5px}
-foto { 
+xsl { 
   background: url(img/fondo_th.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -30,7 +30,7 @@ foto {
      <th>Opción</th>
       <th>Respuesta</th>
     </tr>
-	  <div class="foto" style="background-image: url(img/fondo_th.png)"></div>
+	 
     <xsl:for-each select="questions/question">      
     <tr>
       <td><xsl:value-of select="title"/></td>
