@@ -21,21 +21,16 @@ span{color:green;padding-left:5px}
      <th>Opción</th>
       <th>Respuesta</th>
     </tr>
-	  
+	  <xsl:attribute-set name="region-body__frontmatter.odd" use-attribute-sets="region-body.odd">
+    <xsl:attribute name="background-image">url(img/fondo_th.png)</xsl:attribute>
+    <xsl:attribute name="background-repeat">repeat</xsl:attribute>
+    <xsl:attribute name="background-position">150px 150px</xsl:attribute>
+</xsl:attribute-set>
     <xsl:for-each select="questions/question">      
     <tr>
       <td><xsl:value-of select="title"/></td>
       <td>
-	    <div style="width: 70px; float: left;">
-     <xsl:element name="img">
-       <xsl:attribute name="src">
-         <xsl:value-of select="cabeceras/@foto"/>
-       </xsl:attribute>
-       <xsl:attribute name="height">
-         100
-       </xsl:attribute>
-     </xsl:element>
-</div>
+	    
        <xsl:for-each select="answer">
         <xsl:choose>
          <xsl:when test="../type = 'text'">
