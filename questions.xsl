@@ -6,10 +6,7 @@
 <html>
 <head>
 <style rel="stylesheet" type="text/css">
-table{font-family: Verdana, Arial, Helvetica, sans-serif;
-font-size:12px;
-text-align: right;
-width: 600px;}
+table{table{width:100%;border:1px solid};}
 th{background-color:#cdd8f6}
 td,tr,th{border:1px solid;padding:2px;vertical-align:top}
 span{color:green;padding-left:5px}
