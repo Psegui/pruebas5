@@ -10,7 +10,8 @@ W-
 <style>
 table{
 	width:100%;
-	border:1px solid
+<!--	border: 1px solid;  -->
+	border:black 1px solid;
 }
 th{
 	background-color:#cdd8f6;
@@ -25,11 +26,11 @@ th{
 td,tr,th{
 	border:1px solid;
 	padding:2px;
-	vertical-align:top
+	vertical-align:top;
 }
 span{
 	color:green;
-	padding-left:5px
+	padding-left:5px;
 }
 </style>
 </head>
