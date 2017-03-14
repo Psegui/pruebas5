@@ -7,8 +7,23 @@
 <head>
 <style rel="stylesheet" type="text/css">
 table{width:100%;border:1px solid}
-th{background-color:#cdd8f6}
-td,tr,th{border:1px solid;padding:2px;vertical-align:top}
+th{bth {
+padding: 5px;
+font-size: 16px;
+background-color: #83aec0;
+background-image: url(fondo_th.png);
+background-repeat: repeat-x;
+color: #FFFFFF;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #558FA6;
+border-bottom-color: #558FA6;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+td,tr,{border:1px solid;padding:2px;vertical-align:top}
 span{color:green;padding-left:5px}
 </style>
 </head>
