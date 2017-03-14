@@ -7,7 +7,7 @@
 <head>
 <style rel="stylesheet" type="text/css">
 table{width:100%;border:1px solid}
-th{background-color:#cdd8f6;<img src="img/fondo_th.png" alt="degradado">
+th{background-color:#cdd8f6;>
 
 }
 td,tr,th{border:1px solid;padding:2px;vertical-align:top}
