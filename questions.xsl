@@ -8,7 +8,7 @@
 <head>
 <style rel="stylesheet" type="text/css">
 table{width:100%;border:1px solid}
-th{background-color:#cdd8f6}
+zth{background-color:#cdd8f6}
 td,tr,th{border:1px solid;padding:2px;vertical-align:top}
 span{color:green;padding-left:5px}
 </style>
@@ -18,7 +18,7 @@ span{color:green;padding-left:5px}
   <table>
     <tr>
       <th>Pregunta</th>
-      <th>Opción</th>
+     <th>Opción</th>
       <th>Respuesta</th>
     </tr>
 	  
@@ -26,7 +26,7 @@ span{color:green;padding-left:5px}
     <tr>
       <td><xsl:value-of select="title"/></td>
       <td>
-	       
+	     <th>  
      <xsl:element name="img">
        <xsl:attribute name="src">
          <xsl:value-of select="cabeceras/@foto"/>
@@ -35,6 +35,7 @@ span{color:green;padding-left:5px}
          100
        </xsl:attribute>
      </xsl:element>
+	      </th>
 
        <xsl:for-each select="answer">
         <xsl:choose>
