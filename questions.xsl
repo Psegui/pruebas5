@@ -6,7 +6,8 @@ W-
 <xsl:template match="/">
 <html>
 <head>
-<style rel="stylesheet" type="text/css">
+<!-- <style rel="stylesheet" type="text/css">  -->
+<style>
 table{
 	width:100%;
 	border:1px solid
@@ -36,7 +37,7 @@ span{
   <h2>Corrección</h2>
   <table>
     <tr>
-          <th>Pregunta</th>
+      <th>Pregunta</th>
       <th>Opción</th>
       <th>Respuesta</th>
     </tr>
@@ -53,7 +54,10 @@ span{
        </xsl:for-each>
        <xsl:for-each select="option">
          <xsl:variable name="optposition" select="position()-1"/>
-        O<xsl:value-of select="$optposition+1"/>: <xsl:value-of select="text()"/>
+         O
+	 <xsl:value-of select="$optposition+1"/>
+	 : 
+	 <xsl:value-of select="text()"/>
          <xsl:for-each select="../answer">
           <xsl:variable name="correctanswer" select="text()"/>
           <xsl:if test="$optposition=$correctanswer">
