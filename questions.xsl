@@ -16,18 +16,18 @@ span{color:green;padding-left:5px}
   <h2>Corrección</h2>
   <table>
     <tr>
-      <th>Pregunta 
-       ><xsl:element name="img">
+      <th>Pregunta></th>
+      <th>Opción</th>
+      <th>Respuesta </th>
+    </tr>
+	  <xsl:element name="img">
        <xsl:attribute name="src">
          <xsl:value-of select="cabeceras/@foto"/>
        </xsl:attribute>
        <xsl:attribute name="height">
          100
        </xsl:attribute>
-     </xsl:element></th>
-      <th>Opción</th>
-      <th>Respuesta </th>
-    </tr>
+     </xsl:element>
     <xsl:for-each select="questions/question">      
     <tr>
       <td><xsl:value-of select="title"/></td>
