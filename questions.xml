@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="questions.xsl"?>
+
+<questions>
+	<question id="UAP_HE1">
+		<type>radio</type>
+		<title>1.- ¿Quién es el actual presidente de los Estados Unidos? :</title>
+		<option>a) barack obama</option>
+		<option>b) Bill Clinton</option>
+		<option>c) Hillary Clinton</option>
+		<option>d) Donald trump</option>
+		 <cabeceras foto ="img/fondo_th.png"/>
+		<answer>4</answer>
+	</question>
+	<question id="UAP_HE2">
+		<type>checkbox</type>
+		<title>2.- ¿Quién canta Booma Yee?</title>
+		<option>a) Geo Da Silva@Jack MAzzoni</option>
+		<option>b) Bustamante</option>
+		<option>c) Shakira</option>
+		<answer>1</answer>
+	</question>
+	<question id="UAP_HE3">
+		<type>text</type>
+		<title>3.- ¿Quien escribio Parque Jurásico?</title>
+		<answer>MICHAEL CRICHTON</answer>
+	</question>
+	<question id="UAP_HE4">
+		<type>multiple</type>
+		<title>4.-¿Cuales son mis apellidos?</title>
+		<option>a) Seguí</option>
+		<option>b) Pedrosa</option>
+		<option>c) Brey</option>
+		<option>d) Clinton</option>
+		<answer>0</answer>
+		<answer>1</answer>
+	</question>
+	<question id="UAP_HE5">
+		<type>radio</type>
+		<title>5.- ¿Cuando finalizo la Guerra Civil Española :</title>
+		<option>a) 26 de junio de 1936</option>
+		<option>b) 18 de julio de 1936</option>
+		<option>c) 1 de abril de 1939</option>
+		<option>d)20 de noviembre de 1975</option>
+		<answer>3</answer>
+	</question>
+	<question id="UAP_HE6">
+		<type>select</type>
+		<title>6.- ¿Cuando murio Francisco Franco?</title>
+		<option>a) 7 de mayo de 1945</option>
+		<option>b) 20 de noviembre de 1975</option>
+		<option>c) 14 de abril de 1912</option>
+		<option>d) 26 de junio de 1977</option>
+		<answer>2</answer>
+	</question>
+	<question id="UAP_HE7">
+		<type>multiple</type>
+		<title>7.- ¿Qué idiomas oficiales se hablan en Mallorca?</title>
+		<option>a) Mallorquin</option>
+		<option>b) Español</option>
+		<option>c) Ingles</option>
+		<option>d) Aleman</option>
+		<answer>1</answer>
+		<answer>2</answer>
+	</question>
+	<question id="UAP_HE8">
+		<type>checkbox</type>
+		<title>8.- ¿En que año se llego a la luna?</title>
+		<option>a)  20 de julio 1969</option>
+		<option>b) 16 de julio 1969</option>
+		<option>c) 06 de julio 1965</option>
+		<answer>1</answer>
+	</question>
+	<question id="UAP_HE9">
+		<type>select</type>
+		<title>9.- ¿En año se creo Facebook?</title>
+		<option>a) 04 de diciembre de 2010</option>
+		<option>b) 10 de enero de 2000</option>
+		<option>c) 4 de febrero de 2004</option>
+		<option>d) 26 de abril de 1999</option>
+		<answer>3</answer>
+	</question>
+	<question id="UAP_HE10">
+		<type>text</type>
+		<title>10.- ¿Quién es el director ejecutio de Facebook?</title>
+		<answer> Mark Zuckerberg</answer>
+	</question>
+</questions>
