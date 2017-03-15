@@ -22,6 +22,26 @@ th{
 	-o-background-size: cover;
 	background-size: cover;
 }
+th{
+	background-color:#cdd8f6;
+	background-image: url("./img/fondo_th.png");
+	background-repeat: no-repeat;
+<!--	center center fixed;    -->
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body{
+	background-color:#cdd8f6;
+	background-image: url("./img/fondo_th.png");
+	background-repeat: no-repeat;
+<!--	center center fixed;    -->
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}	
 td,tr,th{
 	border:1px solid;
 	padding:2px;
